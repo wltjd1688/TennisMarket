@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+
+#txt_welcome {
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product_card {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+
+.card_title {
+    font-size: 20px;
+}
+
+.card_button {
+    font-size: 25px;
+    width: 150px;
+    height: 30px;
+}
+
+.card_img {
+    outline: 1px solid #bbbbbb;
+    width: 30vw;
+}
+
+.orderlist_box{
+    margin-top: 50px !important;
+    margin: auto;
+    border: 1px solid #bbbbbb;
+    /* border-collapse: collapse; */
+    text-align: center;
+}
+
+.orderlist_box>thead{
+    background-color: #dddddd;
+}

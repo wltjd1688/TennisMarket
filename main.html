@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Main </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <h1> Tennis Market </h1>
+        <div id="txt_welcome">
+            Welcome to Tennis Market!<br>
+            Enjoy your shopping.
+            <br>
+            <br>
+            <a href="/order">order list</a>
+        </div>
+        <div class="product_card">
+            <div class="card">
+                <img class="card_img" src="./img/redRacket.png">
+                <p class="card_title"> Red Racket </p>
+                <input class="card_button" type="button" value="order" onclick="location.href='/order?productId=1'">
+            </div>
+            <div class="card">
+                <img class="card_img" src="./img/blueRacket.png">
+                <p class="card_title"> Blue Racket </p>
+                <input class="card_button" type="button" value="order" onclick="location.href='/order?productId=2'">
+            </div>
+            <div class="card">
+                <img class="card_img" src="./img/blackRacket.png">
+                <p class="card_title"> Black Racket </p>
+                <input class="card_button" type="button" value="order" onclick="location.href='/order?productId=3'">
+            </div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
